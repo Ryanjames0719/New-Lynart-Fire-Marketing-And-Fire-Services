@@ -18,3 +18,4 @@ C:\Users\Jay\Documents\source\Lynart Marketing And Fire Protection Services\bin\
 C:\Users\Jay\Documents\source\Lynart Marketing And Fire Protection Services\bin\Debug\System.Buffers.dll
 C:\Users\Jay\Documents\source\Lynart Marketing And Fire Protection Services\bin\Debug\MySql.Data.xml
 C:\Users\Jay\Documents\source\Lynart Marketing And Fire Protection Services\obj\Debug\Lynart Marketing And Fire Protection Services.vbproj.CopyComplete
+C:\Users\Jay\Documents\source\Lynart Marketing And Fire Protection Services\obj\Debug\Lynart_Marketing_And_Fire_Protection_Services.Frontpage.resources
