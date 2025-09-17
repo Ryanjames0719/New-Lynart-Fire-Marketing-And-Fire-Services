@@ -15,7 +15,7 @@ Public Class RegisterForm
     Private Sub loginbtn_Click(sender As Object, e As EventArgs) Handles loginbtn.Click
         Try
             conn.Open()
-            Dim sqlquery As String = "INSERT INTO CLIENTS(Client_name,Username,PasswordHash) VALUES (@name, @username, @pass)"
+            Dim sqlquery As String = "INSERT INTO CLIENTS(Client_name,Username,Password) VALUES (@name, @username, @pass)"
             Dim clientname As String = namebox.Text().Trim
             Dim username As String = userbox.Text().Trim
             Dim password As String = passwordbox.Text().Trim
@@ -33,6 +33,9 @@ Public Class RegisterForm
                 Dim rowsAffected As Integer = cmd.ExecuteNonQuery()
                 If rowsAffected > 0 Then
                     MsgBox("Register Successful!")
+                    Dim login As New login()
+                    login.Show()
+                    Me.Hide()
                 Else
                     MsgBox("Register Failed.")
                 End If
@@ -47,6 +50,7 @@ Public Class RegisterForm
         Finally
             conn.Close()
         End Try
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

@@ -46,7 +46,7 @@ Partial Class RegisterForm
         '
         'loginbtn
         '
-        Me.loginbtn.BackColor = System.Drawing.Color.DarkRed
+        Me.loginbtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.loginbtn.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.loginbtn.ForeColor = System.Drawing.Color.White
         Me.loginbtn.Location = New System.Drawing.Point(152, 422)
@@ -69,10 +69,10 @@ Partial Class RegisterForm
         '
         'password2box
         '
-        Me.password2box.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.password2box.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.password2box.Location = New System.Drawing.Point(53, 355)
         Me.password2box.Name = "password2box"
-        Me.password2box.Size = New System.Drawing.Size(354, 29)
+        Me.password2box.Size = New System.Drawing.Size(354, 30)
         Me.password2box.TabIndex = 22
         Me.password2box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.password2box.UseSystemPasswordChar = True
@@ -90,10 +90,10 @@ Partial Class RegisterForm
         '
         'passwordbox
         '
-        Me.passwordbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.passwordbox.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.passwordbox.Location = New System.Drawing.Point(53, 295)
         Me.passwordbox.Name = "passwordbox"
-        Me.passwordbox.Size = New System.Drawing.Size(354, 29)
+        Me.passwordbox.Size = New System.Drawing.Size(354, 30)
         Me.passwordbox.TabIndex = 20
         Me.passwordbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.passwordbox.UseSystemPasswordChar = True
@@ -111,10 +111,10 @@ Partial Class RegisterForm
         '
         'userbox
         '
-        Me.userbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.userbox.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.userbox.Location = New System.Drawing.Point(53, 235)
         Me.userbox.Name = "userbox"
-        Me.userbox.Size = New System.Drawing.Size(354, 29)
+        Me.userbox.Size = New System.Drawing.Size(354, 30)
         Me.userbox.TabIndex = 18
         Me.userbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -131,10 +131,10 @@ Partial Class RegisterForm
         '
         'namebox
         '
-        Me.namebox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.namebox.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.namebox.Location = New System.Drawing.Point(53, 175)
         Me.namebox.Name = "namebox"
-        Me.namebox.Size = New System.Drawing.Size(354, 29)
+        Me.namebox.Size = New System.Drawing.Size(354, 30)
         Me.namebox.TabIndex = 16
         Me.namebox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -160,7 +160,7 @@ Partial Class RegisterForm
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkRed
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Label2)

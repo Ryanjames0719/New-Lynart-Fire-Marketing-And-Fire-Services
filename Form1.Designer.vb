@@ -66,7 +66,7 @@ Partial Class Form1
         '
         'Startbtn
         '
-        Me.Startbtn.BackColor = System.Drawing.Color.DarkRed
+        Me.Startbtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Startbtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Startbtn.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Startbtn.ForeColor = System.Drawing.Color.White

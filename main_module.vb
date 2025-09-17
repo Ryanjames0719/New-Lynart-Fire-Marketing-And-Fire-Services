@@ -33,4 +33,41 @@ Module main_module
         End Using
     End Function
 
+    Private WithEvents menuTimer As New Timer()
+    Private targetPanel As Panel
+    Private targetWidth As Integer
+    Private isExpanding As Boolean
+    Private menuSpeed As Integer = 20
+
+    Public Sub ToggleMenu(pnl As Panel, expandedWidth As Integer, ByRef isOpen As Boolean)
+        targetPanel = pnl
+        targetWidth = expandedWidth
+        isExpanding = Not isOpen
+        menuTimer.Interval = 5
+        menuTimer.Start()
+        isOpen = Not isOpen
+    End Sub
+
+    Private Sub menuTimer_Tick(sender As Object, e As EventArgs) Handles menuTimer.Tick
+        If targetPanel Is Nothing Then Exit Sub
+
+        If isExpanding Then
+            If targetPanel.Width < targetWidth Then
+                targetPanel.Width += menuSpeed
+                If targetPanel.Width >= targetWidth Then
+                    targetPanel.Width = targetWidth
+                    menuTimer.Stop()
+                End If
+            End If
+        Else
+            If targetPanel.Width > 0 Then
+                targetPanel.Width -= menuSpeed
+                If targetPanel.Width <= 0 Then
+                    targetPanel.Width = 0
+                    menuTimer.Stop()
+                End If
+            End If
+        End If
+    End Sub
+
 End Module

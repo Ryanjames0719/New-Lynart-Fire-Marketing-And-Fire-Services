@@ -41,7 +41,7 @@ Partial Class login
         '
         'loginbtn
         '
-        Me.loginbtn.BackColor = System.Drawing.Color.DarkRed
+        Me.loginbtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.loginbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.loginbtn.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.loginbtn.ForeColor = System.Drawing.Color.White
@@ -65,13 +65,14 @@ Partial Class login
         '
         'passbox
         '
-        Me.passbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.passbox.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.passbox.ForeColor = System.Drawing.SystemColors.WindowText
         Me.passbox.Location = New System.Drawing.Point(48, 290)
         Me.passbox.Name = "passbox"
-        Me.passbox.Size = New System.Drawing.Size(354, 29)
+        Me.passbox.Size = New System.Drawing.Size(354, 30)
         Me.passbox.TabIndex = 20
         Me.passbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.passbox.UseSystemPasswordChar = True
         '
         'Label5
         '
@@ -86,10 +87,10 @@ Partial Class login
         '
         'userbox
         '
-        Me.userbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.userbox.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.userbox.Location = New System.Drawing.Point(48, 187)
         Me.userbox.Name = "userbox"
-        Me.userbox.Size = New System.Drawing.Size(354, 29)
+        Me.userbox.Size = New System.Drawing.Size(354, 30)
         Me.userbox.TabIndex = 18
         Me.userbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -115,7 +116,7 @@ Partial Class login
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkRed
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Label2)

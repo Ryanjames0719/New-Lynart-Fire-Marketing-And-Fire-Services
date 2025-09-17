@@ -22,19 +22,19 @@ Public Class login
             Dim username As String = userbox.Text().Trim()
             Dim password As String = passbox.Text().Trim()
             Dim hashed As String = SimpleHash(password)
-
-            Dim sqlquery As String = "SELECT COUNT(*) FROM Clients WHERE Username = @name AND PasswordHash = @pass"
-            Using cmd As New SqlCommand(sqlquery, conn)
+            Dim sqlquery1 As String = "SELECT COUNT (*) FROM Clients WHERE Username = @name AND Password = @pass"
+            Using cmd As New SqlCommand(sqlquery1, conn)
 
                 cmd.Parameters.AddWithValue("@name", username)
                 cmd.Parameters.AddWithValue("@pass", hashed)
-
 
                 Dim result As Integer = Convert.ToInt32(cmd.ExecuteScalar())
 
                 If result > 0 Then
                     MessageBox.Show("Login successful! Hello " & username)
-
+                    Dim front As New Frontpage(username)
+                    front.Show()
+                    Me.Hide()
                 Else
                     MsgBox("Invalid username or password!", MessageBoxIcon.Exclamation)
                 End If
