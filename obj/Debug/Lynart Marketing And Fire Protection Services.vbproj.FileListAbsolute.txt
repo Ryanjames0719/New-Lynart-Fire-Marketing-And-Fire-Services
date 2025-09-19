@@ -41,3 +41,4 @@ C:\Users\Ryan\Source\Repos\Lynart-Marketing-and-Fire-Protection-Services\obj\Deb
 C:\Users\Ryan\Source\Repos\Lynart-Marketing-and-Fire-Protection-Services\obj\Debug\Lynart Marketing And Fire Protection Services.xml
 C:\Users\Ryan\Source\Repos\Lynart-Marketing-and-Fire-Protection-Services\obj\Debug\Lynart Marketing And Fire Protection Services.pdb
 C:\Users\Ryan\Source\Repos\Lynart-Marketing-and-Fire-Protection-Services\obj\Debug\Lynart_Marketing_And_Fire_Protection_Services.OrderForm.resources
+C:\Users\Ryan\Source\Repos\Lynart-Marketing-and-Fire-Protection-Services\obj\Debug\Lynart_Marketing_And_Fire_Protection_Services.Product_catalog.resources
