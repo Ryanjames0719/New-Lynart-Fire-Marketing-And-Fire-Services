@@ -38,5 +38,14 @@
 
     End Sub
 
+    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
+        Dim prod_catalog As New Product_catalog()
+        prod_catalog.Show()
+        Me.Hide()
 
+    End Sub
+
+    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
+
+    End Sub
 End Class
