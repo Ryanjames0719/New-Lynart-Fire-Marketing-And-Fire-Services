@@ -11,6 +11,7 @@
         pnlMenu.Dock = DockStyle.Left
         pnlMenu.Width = 0 ' start collapsed
         Userlabel.Text = SessionData.CurrentUsername
+        Dim UserID As Integer = SessionData.CurrentUserID
 
 
     End Sub

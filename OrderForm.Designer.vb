@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class OrderForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class OrderForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OrderForm))
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -53,7 +53,7 @@ Partial Class OrderForm
         Me.clientaddress = New System.Windows.Forms.TextBox()
         Me.clientcontact = New System.Windows.Forms.TextBox()
         Me.clientemail = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.quantitynum = New System.Windows.Forms.TextBox()
         Me.productprice = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -67,7 +67,7 @@ Partial Class OrderForm
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(623, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(682, 12)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(73, 55)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -78,7 +78,7 @@ Partial Class OrderForm
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(451, 32)
+        Me.Label10.Location = New System.Drawing.Point(510, 32)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(166, 19)
         Me.Label10.TabIndex = 14
@@ -143,7 +143,7 @@ Partial Class OrderForm
         Me.Panel1.Controls.Add(Me.PRODUCTNAME)
         Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.PRODUCTIMG)
-        Me.Panel1.Location = New System.Drawing.Point(52, 408)
+        Me.Panel1.Location = New System.Drawing.Point(52, 385)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(664, 145)
         Me.Panel1.TabIndex = 25
@@ -184,7 +184,7 @@ Partial Class OrderForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(48, 570)
+        Me.Label1.Location = New System.Drawing.Point(48, 547)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(107, 22)
         Me.Label1.TabIndex = 26
@@ -194,7 +194,7 @@ Partial Class OrderForm
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(48, 616)
+        Me.Label2.Location = New System.Drawing.Point(48, 593)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(71, 22)
         Me.Label2.TabIndex = 27
@@ -217,7 +217,7 @@ Partial Class OrderForm
         Me.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
         Me.pnlMenu.Name = "pnlMenu"
-        Me.pnlMenu.Size = New System.Drawing.Size(10, 749)
+        Me.pnlMenu.Size = New System.Drawing.Size(10, 696)
         Me.pnlMenu.TabIndex = 29
         '
         'Label19
@@ -354,7 +354,7 @@ Partial Class OrderForm
         Me.clientaddress.Location = New System.Drawing.Point(146, 235)
         Me.clientaddress.Multiline = True
         Me.clientaddress.Name = "clientaddress"
-        Me.clientaddress.Size = New System.Drawing.Size(570, 133)
+        Me.clientaddress.Size = New System.Drawing.Size(570, 95)
         Me.clientaddress.TabIndex = 33
         '
         'clientcontact
@@ -373,18 +373,18 @@ Partial Class OrderForm
         Me.clientemail.Size = New System.Drawing.Size(198, 26)
         Me.clientemail.TabIndex = 35
         '
-        'TextBox5
+        'quantitynum
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(174, 570)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(131, 22)
-        Me.TextBox5.TabIndex = 36
+        Me.quantitynum.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.quantitynum.Location = New System.Drawing.Point(174, 547)
+        Me.quantitynum.Name = "quantitynum"
+        Me.quantitynum.Size = New System.Drawing.Size(131, 22)
+        Me.quantitynum.TabIndex = 36
         '
         'productprice
         '
         Me.productprice.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.productprice.Location = New System.Drawing.Point(174, 616)
+        Me.productprice.Location = New System.Drawing.Point(174, 593)
         Me.productprice.Name = "productprice"
         Me.productprice.Size = New System.Drawing.Size(131, 22)
         Me.productprice.TabIndex = 37
@@ -394,7 +394,7 @@ Partial Class OrderForm
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Stencil", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(310, 693)
+        Me.Button1.Location = New System.Drawing.Point(329, 630)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(79, 44)
         Me.Button1.TabIndex = 38
@@ -405,7 +405,7 @@ Partial Class OrderForm
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(48, 371)
+        Me.Label7.Location = New System.Drawing.Point(48, 348)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(150, 22)
         Me.Label7.TabIndex = 39
@@ -416,11 +416,11 @@ Partial Class OrderForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(767, 749)
+        Me.ClientSize = New System.Drawing.Size(767, 696)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.productprice)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.quantitynum)
         Me.Controls.Add(Me.clientemail)
         Me.Controls.Add(Me.clientcontact)
         Me.Controls.Add(Me.clientaddress)
@@ -466,7 +466,7 @@ Partial Class OrderForm
     Friend WithEvents clientaddress As TextBox
     Friend WithEvents clientcontact As TextBox
     Friend WithEvents clientemail As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents quantitynum As TextBox
     Friend WithEvents productprice As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label7 As Label

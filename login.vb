@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports Microsoft.VisualBasic.ApplicationServices
 
 Public Class login
 
@@ -32,7 +33,15 @@ Public Class login
                 Dim result As Integer = Convert.ToInt32(cmd.ExecuteScalar())
 
                 If result > 0 Then
-                    SessionData.CurrentUsername = username
+
+                    Dim getIdQuery As String = "SELECT Emp_ID FROM Users WHERE Username = @name"
+                    Using getIdCmd As New SqlCommand(getIdQuery, conn)
+                        getIdCmd.Parameters.AddWithValue("@name", username)
+                        Dim userID As Integer = Convert.ToInt32(getIdCmd.ExecuteScalar())
+                        SessionData.CurrentUserID = userID
+                        SessionData.CurrentUsername = username
+                    End Using
+
                     MessageBox.Show("Login successful! Hello " & username)
                     Dim frontpage As New Frontpage()
                     frontpage.Show()

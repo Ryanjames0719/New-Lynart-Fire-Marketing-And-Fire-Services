@@ -28,6 +28,7 @@
 
     Private Sub Product_catalog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Userlabel.Text = SessionData.CurrentUsername
+        Dim UserID As Integer = SessionData.CurrentUserID
         pnlMenu.Width = 0
     End Sub
 End Class
