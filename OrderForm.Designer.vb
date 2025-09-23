@@ -32,7 +32,6 @@ Partial Class OrderForm
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PRODUCTNAME = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.PRODUCTIMG = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -57,6 +56,8 @@ Partial Class OrderForm
         Me.productprice = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.totalamntbox = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PRODUCTIMG, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -141,7 +142,6 @@ Partial Class OrderForm
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel1.Controls.Add(Me.PRODUCTNAME)
-        Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.PRODUCTIMG)
         Me.Panel1.Location = New System.Drawing.Point(52, 385)
         Me.Panel1.Name = "Panel1"
@@ -158,17 +158,6 @@ Partial Class OrderForm
         Me.PRODUCTNAME.Size = New System.Drawing.Size(156, 22)
         Me.PRODUCTNAME.TabIndex = 28
         Me.PRODUCTNAME.Text = "PRODUCT NAME:"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(181, 15)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(156, 22)
-        Me.Label8.TabIndex = 27
-        Me.Label8.Text = "PRODUCT NAME:"
         '
         'PRODUCTIMG
         '
@@ -383,9 +372,11 @@ Partial Class OrderForm
         '
         'productprice
         '
+        Me.productprice.BackColor = System.Drawing.Color.White
         Me.productprice.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.productprice.Location = New System.Drawing.Point(174, 593)
         Me.productprice.Name = "productprice"
+        Me.productprice.ReadOnly = True
         Me.productprice.Size = New System.Drawing.Size(131, 22)
         Me.productprice.TabIndex = 37
         '
@@ -411,12 +402,34 @@ Partial Class OrderForm
         Me.Label7.TabIndex = 39
         Me.Label7.Text = "ITEM ORDERED:"
         '
+        'totalamntbox
+        '
+        Me.totalamntbox.BackColor = System.Drawing.Color.White
+        Me.totalamntbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalamntbox.Location = New System.Drawing.Point(477, 569)
+        Me.totalamntbox.Name = "totalamntbox"
+        Me.totalamntbox.ReadOnly = True
+        Me.totalamntbox.Size = New System.Drawing.Size(131, 22)
+        Me.totalamntbox.TabIndex = 41
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(351, 569)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(72, 22)
+        Me.Label20.TabIndex = 40
+        Me.Label20.Text = "TOTAL:"
+        '
         'OrderForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(767, 696)
+        Me.Controls.Add(Me.totalamntbox)
+        Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.productprice)
@@ -472,7 +485,6 @@ Partial Class OrderForm
     Friend WithEvents Label7 As Label
     Friend WithEvents PRODUCTIMG As PictureBox
     Friend WithEvents PRODUCTNAME As Label
-    Friend WithEvents Label8 As Label
     Friend WithEvents Userlabel As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox1 As PictureBox
@@ -484,4 +496,6 @@ Partial Class OrderForm
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Label19 As Label
+    Friend WithEvents totalamntbox As TextBox
+    Friend WithEvents Label20 As Label
 End Class

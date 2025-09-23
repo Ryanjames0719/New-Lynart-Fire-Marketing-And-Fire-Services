@@ -31,4 +31,49 @@
         Dim UserID As Integer = SessionData.CurrentUserID
         pnlMenu.Width = 0
     End Sub
+
+    Private Sub red2name_Click(sender As Object, e As EventArgs) Handles red2name.Click
+        Dim orderfrm As New OrderForm()
+        ProductData.CurrentProductName = red2name.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(red2price.Text)
+        ProductData.CurrentProductImage = red1picture.Image
+        orderfrm.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub red3name_Click(sender As Object, e As EventArgs) Handles red3name.Click
+        Dim orderfrm As New OrderForm()
+        ProductData.CurrentProductName = red3name.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(red3price.Text)
+        ProductData.CurrentProductImage = red1picture.Image
+        orderfrm.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub blue1name_Click(sender As Object, e As EventArgs) Handles blue1name.Click
+        Dim orderfrm As New OrderForm()
+        ProductData.CurrentProductName = blue1name.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue1price.Text)
+        ProductData.CurrentProductImage = bluepicture.Image
+        orderfrm.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub blue2name_Click(sender As Object, e As EventArgs) Handles blue2name.Click
+        Dim orderfrm As New OrderForm()
+        ProductData.CurrentProductName = blue2name.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue2price.Text)
+        ProductData.CurrentProductImage = bluepicture.Image
+        orderfrm.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub blue3name_Click(sender As Object, e As EventArgs) Handles blue3name.Click
+        Dim orderfrm As New OrderForm()
+        ProductData.CurrentProductName = blue3name.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(blue3price.Text)
+        ProductData.CurrentProductImage = bluepicture.Image
+        orderfrm.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -24,6 +24,7 @@ Partial Class Product_catalog
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Product_catalog))
         Me.pnlMenu = New System.Windows.Forms.Panel()
+        Me.Userlabel = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -42,18 +43,16 @@ Partial Class Product_catalog
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.red1picture = New System.Windows.Forms.PictureBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.bluepicture = New System.Windows.Forms.PictureBox()
         Me.red1name = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.red2name = New System.Windows.Forms.Label()
+        Me.red3name = New System.Windows.Forms.Label()
         Me.red1price = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
+        Me.blue1price = New System.Windows.Forms.Label()
+        Me.blue3name = New System.Windows.Forms.Label()
+        Me.blue2name = New System.Windows.Forms.Label()
+        Me.blue1name = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
@@ -72,16 +71,20 @@ Partial Class Product_catalog
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
+        Me.red2price = New System.Windows.Forms.Label()
+        Me.red3price = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.blue2price = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Userlabel = New System.Windows.Forms.Label()
+        Me.blue3price = New System.Windows.Forms.Label()
         Me.pnlMenu.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.red1picture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.bluepicture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel5.SuspendLayout()
@@ -111,6 +114,16 @@ Partial Class Product_catalog
         Me.pnlMenu.Name = "pnlMenu"
         Me.pnlMenu.Size = New System.Drawing.Size(10, 735)
         Me.pnlMenu.TabIndex = 1
+        '
+        'Userlabel
+        '
+        Me.Userlabel.AutoSize = True
+        Me.Userlabel.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Userlabel.Location = New System.Drawing.Point(164, 86)
+        Me.Userlabel.Name = "Userlabel"
+        Me.Userlabel.Size = New System.Drawing.Size(65, 25)
+        Me.Userlabel.TabIndex = 27
+        Me.Userlabel.Text = "USER"
         '
         'Label12
         '
@@ -288,21 +301,21 @@ Partial Class Product_catalog
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel3.Controls.Add(Me.PictureBox4)
+        Me.Panel3.Controls.Add(Me.bluepicture)
         Me.Panel3.Location = New System.Drawing.Point(706, 164)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(238, 255)
+        Me.Panel3.Size = New System.Drawing.Size(237, 255)
         Me.Panel3.TabIndex = 18
         '
-        'PictureBox4
+        'bluepicture
         '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(13, 13)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(212, 229)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 18
-        Me.PictureBox4.TabStop = False
+        Me.bluepicture.Image = CType(resources.GetObject("bluepicture.Image"), System.Drawing.Image)
+        Me.bluepicture.Location = New System.Drawing.Point(13, 13)
+        Me.bluepicture.Name = "bluepicture"
+        Me.bluepicture.Size = New System.Drawing.Size(212, 229)
+        Me.bluepicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.bluepicture.TabIndex = 18
+        Me.bluepicture.TabStop = False
         '
         'red1name
         '
@@ -315,25 +328,27 @@ Partial Class Product_catalog
         Me.red1name.TabIndex = 19
         Me.red1name.Text = "Fire Extinguisher - 5 Lbs. Dry Chemical (Red)"
         '
-        'Label2
+        'red2name
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(306, 275)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(394, 19)
-        Me.Label2.TabIndex = 20
-        Me.Label2.Text = "Fire Extinguisher - 10 Lbs. Dry Chemical (Red)"
+        Me.red2name.AutoSize = True
+        Me.red2name.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.red2name.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red2name.Location = New System.Drawing.Point(306, 275)
+        Me.red2name.Name = "red2name"
+        Me.red2name.Size = New System.Drawing.Size(394, 19)
+        Me.red2name.TabIndex = 20
+        Me.red2name.Text = "Fire Extinguisher - 10 Lbs. Dry Chemical (Red)"
         '
-        'Label3
+        'red3name
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(306, 365)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(394, 19)
-        Me.Label3.TabIndex = 21
-        Me.Label3.Text = "Fire Extinguisher - 10 Lbs. Dry Chemical (Red)"
+        Me.red3name.AutoSize = True
+        Me.red3name.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.red3name.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red3name.Location = New System.Drawing.Point(306, 365)
+        Me.red3name.Name = "red3name"
+        Me.red3name.Size = New System.Drawing.Size(394, 19)
+        Me.red3name.TabIndex = 21
+        Me.red3name.Text = "Fire Extinguisher - 20 Lbs. Dry Chemical (Red)"
         '
         'red1price
         '
@@ -355,65 +370,48 @@ Partial Class Product_catalog
         Me.Label16.TabIndex = 24
         Me.Label16.Text = "Php"
         '
-        'Label17
+        'blue1price
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(963, 387)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(86, 19)
-        Me.Label17.TabIndex = 30
-        Me.Label17.Text = "Php 1,950"
+        Me.blue1price.AutoSize = True
+        Me.blue1price.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue1price.Location = New System.Drawing.Point(1010, 207)
+        Me.blue1price.Name = "blue1price"
+        Me.blue1price.Size = New System.Drawing.Size(50, 19)
+        Me.blue1price.TabIndex = 28
+        Me.blue1price.Text = "1,200"
         '
-        'Label18
+        'blue3name
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(963, 300)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(86, 19)
-        Me.Label18.TabIndex = 29
-        Me.Label18.Text = "Php 1,500"
+        Me.blue3name.AutoSize = True
+        Me.blue3name.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.blue3name.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue3name.Location = New System.Drawing.Point(963, 365)
+        Me.blue3name.Name = "blue3name"
+        Me.blue3name.Size = New System.Drawing.Size(376, 19)
+        Me.blue3name.TabIndex = 27
+        Me.blue3name.Text = "Fire Extinguisher - 20 Lbs. FOAM/AFFF (blue)"
         '
-        'Label19
+        'blue2name
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(963, 207)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(86, 19)
-        Me.Label19.TabIndex = 28
-        Me.Label19.Text = "Php 1,200"
+        Me.blue2name.AutoSize = True
+        Me.blue2name.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.blue2name.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue2name.Location = New System.Drawing.Point(963, 275)
+        Me.blue2name.Name = "blue2name"
+        Me.blue2name.Size = New System.Drawing.Size(376, 19)
+        Me.blue2name.TabIndex = 26
+        Me.blue2name.Text = "Fire Extinguisher - 10 Lbs. FOAM/AFFF (Blue)"
         '
-        'Label20
+        'blue1name
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(963, 365)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(394, 19)
-        Me.Label20.TabIndex = 27
-        Me.Label20.Text = "Fire Extinguisher - 10 Lbs. Dry Chemical (Red)"
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(963, 275)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(394, 19)
-        Me.Label21.TabIndex = 26
-        Me.Label21.Text = "Fire Extinguisher - 10 Lbs. Dry Chemical (Red)"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(963, 177)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(385, 19)
-        Me.Label22.TabIndex = 25
-        Me.Label22.Text = "Fire Extinguisher - 5 Lbs. Dry Chemical (Red)"
+        Me.blue1name.AutoSize = True
+        Me.blue1name.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.blue1name.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue1name.Location = New System.Drawing.Point(963, 177)
+        Me.blue1name.Name = "blue1name"
+        Me.blue1name.Size = New System.Drawing.Size(367, 19)
+        Me.blue1name.TabIndex = 25
+        Me.blue1name.Text = "Fire Extinguisher - 5 Lbs. Foam/AFFF (Blue)"
         '
         'Panel4
         '
@@ -460,7 +458,7 @@ Partial Class Product_catalog
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.Red
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel5.Controls.Add(Me.Label29)
         Me.Panel5.Controls.Add(Me.Label30)
         Me.Panel5.Controls.Add(Me.PictureBox8)
@@ -474,11 +472,11 @@ Partial Class Product_catalog
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.White
-        Me.Label29.Location = New System.Drawing.Point(20, 181)
+        Me.Label29.Location = New System.Drawing.Point(3, 181)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(144, 19)
+        Me.Label29.Size = New System.Drawing.Size(207, 19)
         Me.Label29.TabIndex = 35
-        Me.Label29.Text = "SMOKE DETECTOR"
+        Me.Label29.Text = "FIRE EXIT SIGN(HANGING)"
         '
         'Label30
         '
@@ -519,9 +517,9 @@ Partial Class Product_catalog
         Me.Label27.ForeColor = System.Drawing.Color.White
         Me.Label27.Location = New System.Drawing.Point(20, 181)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(144, 19)
+        Me.Label27.Size = New System.Drawing.Size(123, 19)
         Me.Label27.TabIndex = 35
-        Me.Label27.Text = "SMOKE DETECTOR"
+        Me.Label27.Text = "FIRE EXIT SIGN"
         '
         'Label28
         '
@@ -562,9 +560,9 @@ Partial Class Product_catalog
         Me.Label25.ForeColor = System.Drawing.Color.White
         Me.Label25.Location = New System.Drawing.Point(20, 181)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(144, 19)
+        Me.Label25.Size = New System.Drawing.Size(101, 19)
         Me.Label25.TabIndex = 35
-        Me.Label25.Text = "SMOKE DETECTOR"
+        Me.Label25.Text = "FIRE ALARM"
         '
         'Label26
         '
@@ -607,35 +605,75 @@ Partial Class Product_catalog
         Me.Label31.TabIndex = 35
         Me.Label31.Text = "Php"
         '
-        'Label32
+        'red2price
         '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(357, 310)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(50, 19)
-        Me.Label32.TabIndex = 34
-        Me.Label32.Text = "1,500"
+        Me.red2price.AutoSize = True
+        Me.red2price.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red2price.Location = New System.Drawing.Point(357, 310)
+        Me.red2price.Name = "red2price"
+        Me.red2price.Size = New System.Drawing.Size(50, 19)
+        Me.red2price.TabIndex = 34
+        Me.red2price.Text = "1,500"
+        '
+        'red3price
+        '
+        Me.red3price.AutoSize = True
+        Me.red3price.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.red3price.Location = New System.Drawing.Point(357, 400)
+        Me.red3price.Name = "red3price"
+        Me.red3price.Size = New System.Drawing.Size(50, 19)
+        Me.red3price.TabIndex = 36
+        Me.red3price.Text = "1,950"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(963, 207)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(41, 19)
+        Me.Label2.TabIndex = 37
+        Me.Label2.Text = "Php"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(963, 310)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(41, 19)
+        Me.Label3.TabIndex = 39
+        Me.Label3.Text = "Php"
+        '
+        'blue2price
+        '
+        Me.blue2price.AutoSize = True
+        Me.blue2price.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue2price.Location = New System.Drawing.Point(1010, 310)
+        Me.blue2price.Name = "blue2price"
+        Me.blue2price.Size = New System.Drawing.Size(50, 19)
+        Me.blue2price.TabIndex = 38
+        Me.blue2price.Text = "1,500"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(357, 400)
+        Me.Label15.Location = New System.Drawing.Point(963, 400)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(50, 19)
-        Me.Label15.TabIndex = 36
-        Me.Label15.Text = "1,950"
+        Me.Label15.Size = New System.Drawing.Size(41, 19)
+        Me.Label15.TabIndex = 41
+        Me.Label15.Text = "Php"
         '
-        'Userlabel
+        'blue3price
         '
-        Me.Userlabel.AutoSize = True
-        Me.Userlabel.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Userlabel.Location = New System.Drawing.Point(164, 86)
-        Me.Userlabel.Name = "Userlabel"
-        Me.Userlabel.Size = New System.Drawing.Size(65, 25)
-        Me.Userlabel.TabIndex = 27
-        Me.Userlabel.Text = "USER"
+        Me.blue3price.AutoSize = True
+        Me.blue3price.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.blue3price.Location = New System.Drawing.Point(1010, 400)
+        Me.blue3price.Name = "blue3price"
+        Me.blue3price.Size = New System.Drawing.Size(50, 19)
+        Me.blue3price.TabIndex = 40
+        Me.blue3price.Text = "1,950"
         '
         'Product_catalog
         '
@@ -644,25 +682,28 @@ Partial Class Product_catalog
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1370, 735)
         Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.blue3price)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.blue2price)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.red3price)
         Me.Controls.Add(Me.Label31)
-        Me.Controls.Add(Me.Label32)
+        Me.Controls.Add(Me.red2price)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel4)
-        Me.Controls.Add(Me.Label17)
-        Me.Controls.Add(Me.Label18)
-        Me.Controls.Add(Me.Label19)
+        Me.Controls.Add(Me.blue1price)
         Me.Controls.Add(Me.searchbox)
-        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.blue3name)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Label21)
-        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.blue2name)
+        Me.Controls.Add(Me.blue1name)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.red1price)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.red3name)
+        Me.Controls.Add(Me.red2name)
         Me.Controls.Add(Me.red1name)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.btnMenu)
@@ -679,7 +720,7 @@ Partial Class Product_catalog
         Me.Panel1.ResumeLayout(False)
         CType(Me.red1picture, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.bluepicture, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -715,18 +756,16 @@ Partial Class Product_catalog
     Friend WithEvents Panel1 As Panel
     Friend WithEvents red1picture As PictureBox
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents bluepicture As PictureBox
     Friend WithEvents red1name As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
+    Friend WithEvents red2name As Label
+    Friend WithEvents red3name As Label
     Friend WithEvents red1price As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label20 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label22 As Label
+    Friend WithEvents blue1price As Label
+    Friend WithEvents blue3name As Label
+    Friend WithEvents blue2name As Label
+    Friend WithEvents blue1name As Label
     Friend WithEvents Panel4 As Panel
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Panel5 As Panel
@@ -745,7 +784,12 @@ Partial Class Product_catalog
     Friend WithEvents Label26 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label31 As Label
-    Friend WithEvents Label32 As Label
-    Friend WithEvents Label15 As Label
+    Friend WithEvents red2price As Label
+    Friend WithEvents red3price As Label
     Friend WithEvents Userlabel As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents blue2price As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents blue3price As Label
 End Class

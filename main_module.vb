@@ -1,6 +1,8 @@
 ﻿Imports System.Drawing.Drawing2D
 Imports System.Security.Cryptography
 Imports System.Text
+Imports System.Globalization
+
 Module main_module
     Public Sub RoundPanelCorners(pnl As Panel, radius As Integer)
         Dim path As New GraphicsPath()
@@ -80,4 +82,22 @@ Module SessionData
     Public CurrentUsername As String
     Public CurrentUserID As Integer
     ' You can add role, email, etc.
+End Module
+Module CalculationModule
+    ' Reusable function to calculate total
+    Public Function CalculateTotal(prodPrice As Decimal, qtyText As String) As Decimal
+        Dim qty As Integer = 0
+        If Integer.TryParse(qtyText, qty) Then
+            Return prodPrice * qty
+        Else
+            Return 0
+        End If
+    End Function
+End Module
+Module Utils
+    ' Format number into Philippine Peso
+    Public Function FormatPeso(amount As Decimal) As String
+        Dim phCulture As CultureInfo = CultureInfo.CreateSpecificCulture("en-PH")
+        Return amount.ToString("C", phCulture) ' ₱1,234.56
+    End Function
 End Module

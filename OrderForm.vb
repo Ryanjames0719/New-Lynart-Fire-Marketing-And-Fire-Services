@@ -7,12 +7,28 @@ Public Class OrderForm
     Private Sub OrderForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         PRODUCTNAME.Text = ProductData.CurrentProductName
-        productprice.Text = ProductData.CurrentProductPrice.ToString("C")
+        productprice.Text = FormatPeso(Convert.ToDecimal(ProductData.CurrentProductPrice))
         PRODUCTIMG.Image = ProductData.CurrentProductImage
         pnlMenu.Width = 0
         Userlabel.Text = SessionData.CurrentUsername
+        AddHandler quantitynum.TextChanged, AddressOf UpdateTotalAmount
+
     End Sub
 
+    Private Sub UpdateTotalAmount(sender As Object, e As EventArgs)
+        Try
+            Dim prodPrice As Decimal = Convert.ToDecimal(ProductData.CurrentProductPrice)
+            Dim quantity As Integer = 0
+            If Integer.TryParse(quantitynum.Text, quantity) Then
+                Dim total As Decimal = prodPrice * quantity
+                totalamntbox.Text = FormatPeso(total) ' PHP currency
+            Else
+                totalamntbox.Text = FormatPeso(0)
+            End If
+        Catch ex As Exception
+            totalamntbox.Text = FormatPeso(0)
+        End Try
+    End Sub
     Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
         pnlMenu.BringToFront()
         btnMenu.BringToFront()
