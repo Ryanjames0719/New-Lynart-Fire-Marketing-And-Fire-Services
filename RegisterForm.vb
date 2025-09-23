@@ -15,7 +15,7 @@ Public Class RegisterForm
     Private Sub loginbtn_Click(sender As Object, e As EventArgs) Handles loginbtn.Click
         Try
             conn.Open()
-            Dim sqlquery As String = "INSERT INTO CLIENTS(Client_name,Username,Password) VALUES (@name, @username, @pass)"
+            Dim sqlquery As String = "INSERT INTO Users(Employee_name,Username,Password) VALUES (@name, @username, @pass)"
             Dim clientname As String = namebox.Text().Trim
             Dim username As String = userbox.Text().Trim
             Dim password As String = passwordbox.Text().Trim

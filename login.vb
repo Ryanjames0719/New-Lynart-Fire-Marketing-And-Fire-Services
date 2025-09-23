@@ -1,6 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class login
+
     Dim conn As New SqlConnection("Server=localhost\SQLEXPRESS;Database=LynartDB;Trusted_Connection=True;")
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RoundPanelCorners(Panel1, 50)
@@ -22,7 +23,7 @@ Public Class login
             Dim username As String = userbox.Text().Trim()
             Dim password As String = passbox.Text().Trim()
             Dim hashed As String = SimpleHash(password)
-            Dim sqlquery1 As String = "SELECT COUNT (*) FROM Clients WHERE Username = @name AND Password = @pass"
+            Dim sqlquery1 As String = "SELECT COUNT (*) FROM Users WHERE Username = @name AND Password = @pass"
             Using cmd As New SqlCommand(sqlquery1, conn)
 
                 cmd.Parameters.AddWithValue("@name", username)
@@ -31,9 +32,10 @@ Public Class login
                 Dim result As Integer = Convert.ToInt32(cmd.ExecuteScalar())
 
                 If result > 0 Then
+                    SessionData.CurrentUsername = username
                     MessageBox.Show("Login successful! Hello " & username)
-                    Dim front As New Frontpage(username)
-                    front.Show()
+                    Dim frontpage As New Frontpage()
+                    frontpage.Show()
                     Me.Hide()
                 Else
                     MsgBox("Invalid username or password!", MessageBoxIcon.Exclamation)

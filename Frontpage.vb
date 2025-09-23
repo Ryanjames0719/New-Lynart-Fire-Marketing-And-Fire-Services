@@ -1,11 +1,7 @@
 ﻿Public Class Frontpage
     Private isMenuOpen As Boolean = False
-    Private loggedInUser As String
     ' Constructor accepts username
-    Public Sub New(username As String)
-        InitializeComponent()
-        loggedInUser = username
-    End Sub
+
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnMenu.FlatStyle = FlatStyle.Flat
@@ -14,7 +10,7 @@
         searchbtn.FlatAppearance.BorderSize = 0
         pnlMenu.Dock = DockStyle.Left
         pnlMenu.Width = 0 ' start collapsed
-        Userlabel.Text = loggedInUser
+        Userlabel.Text = SessionData.CurrentUsername
 
 
     End Sub
@@ -34,7 +30,7 @@
         pnlMenu.BringToFront()
         btnMenu.BringToFront()
         ToggleMenu(pnlMenu, 330, isMenuOpen)
-        searchbox.SendToBack()
+
 
     End Sub
 

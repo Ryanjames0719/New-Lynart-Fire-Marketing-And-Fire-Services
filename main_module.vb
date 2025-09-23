@@ -71,3 +71,13 @@ Module main_module
     End Sub
 
 End Module
+Module ProductData
+    Public CurrentProductName As String
+    Public CurrentProductPrice As Decimal
+    Public CurrentProductImage As Image
+End Module
+Module SessionData
+    Public CurrentUsername As String
+    Public CurrentUserID As Integer
+    ' You can add role, email, etc.
+End Module
