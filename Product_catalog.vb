@@ -9,7 +9,7 @@
 
     End Sub
 
-    Private Sub red1name_Click(sender As Object, e As EventArgs) Handles red1name.Click
+    Private Sub red1name_Click(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = red1name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red1price.Text)
@@ -32,7 +32,7 @@
         pnlMenu.Width = 0
     End Sub
 
-    Private Sub red2name_Click(sender As Object, e As EventArgs) Handles red2name.Click
+    Private Sub red2name_Click(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = red2name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red2price.Text)
@@ -41,7 +41,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub red3name_Click(sender As Object, e As EventArgs) Handles red3name.Click
+    Private Sub red3name_Click(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = red3name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red3price.Text)
@@ -50,7 +50,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub blue1name_Click(sender As Object, e As EventArgs) Handles blue1name.Click
+    Private Sub blue1name_Click(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = blue1name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue1price.Text)
@@ -59,7 +59,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub blue2name_Click(sender As Object, e As EventArgs) Handles blue2name.Click
+    Private Sub blue2name_Click(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = blue2name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue2price.Text)
@@ -68,12 +68,72 @@
         Me.Hide()
     End Sub
 
-    Private Sub blue3name_Click(sender As Object, e As EventArgs) Handles blue3name.Click
+    Private Sub blue3name_Click(sender As Object, e As EventArgs)
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = blue3name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue3price.Text)
         ProductData.CurrentProductImage = bluepicture.Image
         orderfrm.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Label12_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Panel8_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub pnlMenu_Paint(sender As Object, e As PaintEventArgs) Handles pnlMenu.Paint
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
+    End Sub
+
+    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+
+    End Sub
+
+    Private Sub Label31_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label23_Click(sender As Object, e As EventArgs) Handles Label23.Click
+
+    End Sub
+
+    Private Sub Label26_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub Label19_Click(sender As Object, e As EventArgs) Handles Label19.Click
+
+    End Sub
+
+    Private Sub red1name_Click_1(sender As Object, e As EventArgs) Handles red1name.Click
+
     End Sub
 End Class

@@ -22,5 +22,60 @@ Lynart Marketing And Fire Protection Services
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_fire_extinguisher_25__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_home_24__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_inventory_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_logout_25">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_maintenance_22">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_services_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_services_241">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_settings_23">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_settings_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_settings_25">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_warranty_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

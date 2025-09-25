@@ -170,5 +170,41 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-inventory-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-fire-extinguisher-25 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-maintenance-22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-services-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-warranty-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-services-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

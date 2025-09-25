@@ -68,9 +68,10 @@ Partial Class OrderForm
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(682, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(913, 22)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(73, 55)
+        Me.PictureBox2.Size = New System.Drawing.Size(97, 68)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 15
         Me.PictureBox2.TabStop = False
@@ -79,9 +80,10 @@ Partial Class OrderForm
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Stencil", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(510, 32)
+        Me.Label10.Location = New System.Drawing.Point(680, 39)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(166, 19)
+        Me.Label10.Size = New System.Drawing.Size(203, 24)
         Me.Label10.TabIndex = 14
         Me.Label10.Text = "LYNART MARKETING"
         '
@@ -91,9 +93,10 @@ Partial Class OrderForm
         Me.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMenu.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMenu.ForeColor = System.Drawing.Color.Black
-        Me.btnMenu.Location = New System.Drawing.Point(-5, -1)
+        Me.btnMenu.Location = New System.Drawing.Point(-7, -1)
+        Me.btnMenu.Margin = New System.Windows.Forms.Padding(4)
         Me.btnMenu.Name = "btnMenu"
-        Me.btnMenu.Size = New System.Drawing.Size(43, 38)
+        Me.btnMenu.Size = New System.Drawing.Size(57, 47)
         Me.btnMenu.TabIndex = 18
         Me.btnMenu.Text = "☰"
         Me.btnMenu.UseVisualStyleBackColor = False
@@ -102,9 +105,10 @@ Partial Class OrderForm
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(48, 148)
+        Me.Label11.Location = New System.Drawing.Point(64, 182)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(136, 22)
+        Me.Label11.Size = New System.Drawing.Size(172, 29)
         Me.Label11.TabIndex = 19
         Me.Label11.Text = "CLIENT NAME:"
         '
@@ -112,9 +116,10 @@ Partial Class OrderForm
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(48, 192)
+        Me.Label3.Location = New System.Drawing.Point(64, 236)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(113, 22)
+        Me.Label3.Size = New System.Drawing.Size(143, 29)
         Me.Label3.TabIndex = 22
         Me.Label3.Text = "CONTACT #:"
         '
@@ -122,9 +127,10 @@ Partial Class OrderForm
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(446, 192)
+        Me.Label4.Location = New System.Drawing.Point(595, 236)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(72, 22)
+        Me.Label4.Size = New System.Drawing.Size(92, 29)
         Me.Label4.TabIndex = 23
         Me.Label4.Text = "EMAIL:"
         '
@@ -132,20 +138,22 @@ Partial Class OrderForm
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(48, 239)
+        Me.Label5.Location = New System.Drawing.Point(64, 294)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(98, 22)
+        Me.Label5.Size = New System.Drawing.Size(125, 29)
         Me.Label5.TabIndex = 24
         Me.Label5.Text = "ADDRESS:"
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.Firebrick
         Me.Panel1.Controls.Add(Me.PRODUCTNAME)
         Me.Panel1.Controls.Add(Me.PRODUCTIMG)
-        Me.Panel1.Location = New System.Drawing.Point(52, 385)
+        Me.Panel1.Location = New System.Drawing.Point(69, 474)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(664, 145)
+        Me.Panel1.Size = New System.Drawing.Size(885, 178)
         Me.Panel1.TabIndex = 25
         '
         'PRODUCTNAME
@@ -153,18 +161,20 @@ Partial Class OrderForm
         Me.PRODUCTNAME.AutoSize = True
         Me.PRODUCTNAME.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PRODUCTNAME.ForeColor = System.Drawing.Color.White
-        Me.PRODUCTNAME.Location = New System.Drawing.Point(181, 66)
+        Me.PRODUCTNAME.Location = New System.Drawing.Point(241, 81)
+        Me.PRODUCTNAME.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.PRODUCTNAME.Name = "PRODUCTNAME"
-        Me.PRODUCTNAME.Size = New System.Drawing.Size(156, 22)
+        Me.PRODUCTNAME.Size = New System.Drawing.Size(198, 29)
         Me.PRODUCTNAME.TabIndex = 28
         Me.PRODUCTNAME.Text = "PRODUCT NAME:"
         '
         'PRODUCTIMG
         '
         Me.PRODUCTIMG.Image = CType(resources.GetObject("PRODUCTIMG.Image"), System.Drawing.Image)
-        Me.PRODUCTIMG.Location = New System.Drawing.Point(12, 15)
+        Me.PRODUCTIMG.Location = New System.Drawing.Point(16, 18)
+        Me.PRODUCTIMG.Margin = New System.Windows.Forms.Padding(4)
         Me.PRODUCTIMG.Name = "PRODUCTIMG"
-        Me.PRODUCTIMG.Size = New System.Drawing.Size(163, 117)
+        Me.PRODUCTIMG.Size = New System.Drawing.Size(217, 144)
         Me.PRODUCTIMG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PRODUCTIMG.TabIndex = 0
         Me.PRODUCTIMG.TabStop = False
@@ -173,9 +183,10 @@ Partial Class OrderForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(48, 547)
+        Me.Label1.Location = New System.Drawing.Point(64, 673)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(107, 22)
+        Me.Label1.Size = New System.Drawing.Size(135, 29)
         Me.Label1.TabIndex = 26
         Me.Label1.Text = "QUANTITY:"
         '
@@ -183,15 +194,16 @@ Partial Class OrderForm
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(48, 593)
+        Me.Label2.Location = New System.Drawing.Point(64, 730)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 22)
+        Me.Label2.Size = New System.Drawing.Size(91, 29)
         Me.Label2.TabIndex = 27
         Me.Label2.Text = "PRICE:"
         '
         'pnlMenu
         '
-        Me.pnlMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.pnlMenu.BackColor = System.Drawing.Color.Firebrick
         Me.pnlMenu.Controls.Add(Me.Label19)
         Me.pnlMenu.Controls.Add(Me.Label14)
         Me.pnlMenu.Controls.Add(Me.Label12)
@@ -204,18 +216,21 @@ Partial Class OrderForm
         Me.pnlMenu.Controls.Add(Me.Label9)
         Me.pnlMenu.Controls.Add(Me.PictureBox1)
         Me.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left
+        Me.pnlMenu.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
+        Me.pnlMenu.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlMenu.Name = "pnlMenu"
-        Me.pnlMenu.Size = New System.Drawing.Size(10, 696)
+        Me.pnlMenu.Size = New System.Drawing.Size(356, 857)
         Me.pnlMenu.TabIndex = 29
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(38, 556)
+        Me.Label19.Location = New System.Drawing.Point(51, 684)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(85, 22)
+        Me.Label19.Size = New System.Drawing.Size(107, 29)
         Me.Label19.TabIndex = 21
         Me.Label19.Text = "LOG-OUT"
         '
@@ -223,9 +238,10 @@ Partial Class OrderForm
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(28, 368)
+        Me.Label14.Location = New System.Drawing.Point(37, 453)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(143, 25)
+        Me.Label14.Size = New System.Drawing.Size(184, 32)
         Me.Label14.TabIndex = 20
         Me.Label14.Text = "WARRANTIES"
         '
@@ -233,9 +249,10 @@ Partial Class OrderForm
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(28, 281)
+        Me.Label12.Location = New System.Drawing.Point(37, 346)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(152, 25)
+        Me.Label12.Size = New System.Drawing.Size(198, 32)
         Me.Label12.TabIndex = 19
         Me.Label12.Text = "MAINTENANCE"
         '
@@ -243,9 +260,10 @@ Partial Class OrderForm
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(28, 323)
+        Me.Label13.Location = New System.Drawing.Point(37, 398)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(108, 25)
+        Me.Label13.Size = New System.Drawing.Size(138, 32)
         Me.Label13.TabIndex = 18
         Me.Label13.Text = "SERVICES"
         '
@@ -253,9 +271,10 @@ Partial Class OrderForm
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(28, 234)
+        Me.Label15.Location = New System.Drawing.Point(37, 288)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(117, 25)
+        Me.Label15.Size = New System.Drawing.Size(150, 32)
         Me.Label15.TabIndex = 17
         Me.Label15.Text = "PRODUCTS"
         '
@@ -263,9 +282,10 @@ Partial Class OrderForm
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(28, 419)
+        Me.Label16.Location = New System.Drawing.Point(37, 516)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(107, 25)
+        Me.Label16.Size = New System.Drawing.Size(138, 32)
         Me.Label16.TabIndex = 16
         Me.Label16.Text = "SETTINGS"
         '
@@ -273,9 +293,10 @@ Partial Class OrderForm
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(29, 188)
+        Me.Label17.Location = New System.Drawing.Point(39, 231)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(126, 25)
+        Me.Label17.Size = New System.Drawing.Size(161, 32)
         Me.Label17.TabIndex = 15
         Me.Label17.Text = "INVENTORY"
         '
@@ -283,9 +304,10 @@ Partial Class OrderForm
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(28, 148)
+        Me.Label18.Location = New System.Drawing.Point(37, 182)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(69, 25)
+        Me.Label18.Size = New System.Drawing.Size(88, 32)
         Me.Label18.TabIndex = 14
         Me.Label18.Text = "HOME"
         '
@@ -293,9 +315,10 @@ Partial Class OrderForm
         '
         Me.Userlabel.AutoSize = True
         Me.Userlabel.Font = New System.Drawing.Font("Stencil", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Userlabel.Location = New System.Drawing.Point(114, 80)
+        Me.Userlabel.Location = New System.Drawing.Point(152, 98)
+        Me.Userlabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Userlabel.Name = "Userlabel"
-        Me.Userlabel.Size = New System.Drawing.Size(65, 25)
+        Me.Userlabel.Size = New System.Drawing.Size(82, 32)
         Me.Userlabel.TabIndex = 13
         Me.Userlabel.Text = "USER"
         '
@@ -303,18 +326,20 @@ Partial Class OrderForm
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(38, 18)
+        Me.Label9.Location = New System.Drawing.Point(51, 22)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(194, 22)
+        Me.Label9.Size = New System.Drawing.Size(246, 29)
         Me.Label9.TabIndex = 12
         Me.Label9.Text = "LYNART MARKETING"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 42)
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 52)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(105, 103)
+        Me.PictureBox1.Size = New System.Drawing.Size(140, 127)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
@@ -323,61 +348,68 @@ Partial Class OrderForm
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Stencil", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(153, 74)
+        Me.Label6.Location = New System.Drawing.Point(204, 91)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(333, 32)
+        Me.Label6.Size = New System.Drawing.Size(421, 40)
         Me.Label6.TabIndex = 31
         Me.Label6.Text = "ORDER FORM FOR ""ITEM"""
         '
         'clientname
         '
         Me.clientname.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clientname.Location = New System.Drawing.Point(209, 143)
+        Me.clientname.Location = New System.Drawing.Point(279, 176)
+        Me.clientname.Margin = New System.Windows.Forms.Padding(4)
         Me.clientname.Name = "clientname"
-        Me.clientname.Size = New System.Drawing.Size(507, 26)
+        Me.clientname.Size = New System.Drawing.Size(675, 30)
         Me.clientname.TabIndex = 32
         '
         'clientaddress
         '
         Me.clientaddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clientaddress.Location = New System.Drawing.Point(146, 235)
+        Me.clientaddress.Location = New System.Drawing.Point(195, 289)
+        Me.clientaddress.Margin = New System.Windows.Forms.Padding(4)
         Me.clientaddress.Multiline = True
         Me.clientaddress.Name = "clientaddress"
-        Me.clientaddress.Size = New System.Drawing.Size(570, 95)
+        Me.clientaddress.Size = New System.Drawing.Size(759, 116)
         Me.clientaddress.TabIndex = 33
         '
         'clientcontact
         '
         Me.clientcontact.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clientcontact.Location = New System.Drawing.Point(209, 190)
+        Me.clientcontact.Location = New System.Drawing.Point(279, 234)
+        Me.clientcontact.Margin = New System.Windows.Forms.Padding(4)
         Me.clientcontact.Name = "clientcontact"
-        Me.clientcontact.Size = New System.Drawing.Size(213, 26)
+        Me.clientcontact.Size = New System.Drawing.Size(283, 30)
         Me.clientcontact.TabIndex = 34
         '
         'clientemail
         '
         Me.clientemail.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clientemail.Location = New System.Drawing.Point(518, 190)
+        Me.clientemail.Location = New System.Drawing.Point(691, 234)
+        Me.clientemail.Margin = New System.Windows.Forms.Padding(4)
         Me.clientemail.Name = "clientemail"
-        Me.clientemail.Size = New System.Drawing.Size(198, 26)
+        Me.clientemail.Size = New System.Drawing.Size(263, 30)
         Me.clientemail.TabIndex = 35
         '
         'quantitynum
         '
         Me.quantitynum.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.quantitynum.Location = New System.Drawing.Point(174, 547)
+        Me.quantitynum.Location = New System.Drawing.Point(232, 673)
+        Me.quantitynum.Margin = New System.Windows.Forms.Padding(4)
         Me.quantitynum.Name = "quantitynum"
-        Me.quantitynum.Size = New System.Drawing.Size(131, 22)
+        Me.quantitynum.Size = New System.Drawing.Size(173, 26)
         Me.quantitynum.TabIndex = 36
         '
         'productprice
         '
         Me.productprice.BackColor = System.Drawing.Color.White
         Me.productprice.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.productprice.Location = New System.Drawing.Point(174, 593)
+        Me.productprice.Location = New System.Drawing.Point(232, 730)
+        Me.productprice.Margin = New System.Windows.Forms.Padding(4)
         Me.productprice.Name = "productprice"
         Me.productprice.ReadOnly = True
-        Me.productprice.Size = New System.Drawing.Size(131, 22)
+        Me.productprice.Size = New System.Drawing.Size(173, 26)
         Me.productprice.TabIndex = 37
         '
         'Button1
@@ -385,9 +417,10 @@ Partial Class OrderForm
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Stencil", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(329, 630)
+        Me.Button1.Location = New System.Drawing.Point(439, 775)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(79, 44)
+        Me.Button1.Size = New System.Drawing.Size(105, 54)
         Me.Button1.TabIndex = 38
         Me.Button1.Text = "SUBMIT"
         Me.Button1.UseVisualStyleBackColor = False
@@ -396,9 +429,10 @@ Partial Class OrderForm
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(48, 348)
+        Me.Label7.Location = New System.Drawing.Point(64, 428)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(150, 22)
+        Me.Label7.Size = New System.Drawing.Size(193, 29)
         Me.Label7.TabIndex = 39
         Me.Label7.Text = "ITEM ORDERED:"
         '
@@ -406,28 +440,31 @@ Partial Class OrderForm
         '
         Me.totalamntbox.BackColor = System.Drawing.Color.White
         Me.totalamntbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalamntbox.Location = New System.Drawing.Point(477, 569)
+        Me.totalamntbox.Location = New System.Drawing.Point(636, 700)
+        Me.totalamntbox.Margin = New System.Windows.Forms.Padding(4)
         Me.totalamntbox.Name = "totalamntbox"
         Me.totalamntbox.ReadOnly = True
-        Me.totalamntbox.Size = New System.Drawing.Size(131, 22)
+        Me.totalamntbox.Size = New System.Drawing.Size(173, 26)
         Me.totalamntbox.TabIndex = 41
         '
         'Label20
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(351, 569)
+        Me.Label20.Location = New System.Drawing.Point(468, 700)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(72, 22)
+        Me.Label20.Size = New System.Drawing.Size(92, 29)
         Me.Label20.TabIndex = 40
         Me.Label20.Text = "TOTAL:"
         '
         'OrderForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(767, 696)
+        Me.ClientSize = New System.Drawing.Size(1023, 857)
+        Me.Controls.Add(Me.pnlMenu)
         Me.Controls.Add(Me.totalamntbox)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label7)
@@ -439,7 +476,6 @@ Partial Class OrderForm
         Me.Controls.Add(Me.clientaddress)
         Me.Controls.Add(Me.clientname)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.pnlMenu)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
@@ -450,6 +486,7 @@ Partial Class OrderForm
         Me.Controls.Add(Me.btnMenu)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label10)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "OrderForm"
         Me.Text = "OrderForm"
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
