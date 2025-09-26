@@ -1,27 +1,8 @@
 ﻿Public Class Product_catalog
     Private isMenuOpen As Boolean = False
-
-    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
-    Private Sub Label15_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub red1name_Click(sender As Object, e As EventArgs)
-        Dim orderfrm As New OrderForm()
-        ProductData.CurrentProductName = red1name.Text
-        ProductData.CurrentProductPrice = Decimal.Parse(red1price.Text)
-        ProductData.CurrentProductImage = red1picture.Image
-        orderfrm.Show()
-        Me.Hide()
-
-    End Sub
-
     Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
         ToggleMenu(pnlMenu, 330, isMenuOpen)
-        pnlMenu.BringToFront()
+
         btnMenu.BringToFront()
 
     End Sub
@@ -30,9 +11,19 @@
         Userlabel.Text = SessionData.CurrentUsername
         Dim UserID As Integer = SessionData.CurrentUserID
         pnlMenu.Width = 0
+        btnMenu.Location = New Point(0, -1)
     End Sub
 
-    Private Sub red2name_Click(sender As Object, e As EventArgs)
+    Private Sub red1name_Click_1(sender As Object, e As EventArgs) Handles red1name.Click
+        Dim orderfrm As New OrderForm()
+        ProductData.CurrentProductName = red1name.Text
+        ProductData.CurrentProductPrice = Decimal.Parse(red1price.Text)
+        ProductData.CurrentProductImage = red1picture.Image
+        orderfrm.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub red2name_Click_1(sender As Object, e As EventArgs) Handles red2name.Click
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = red2name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red2price.Text)
@@ -41,7 +32,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub red3name_Click(sender As Object, e As EventArgs)
+    Private Sub red3name_Click_1(sender As Object, e As EventArgs) Handles red3name.Click
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = red3name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(red3price.Text)
@@ -50,7 +41,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub blue1name_Click(sender As Object, e As EventArgs)
+    Private Sub blue1name_Click_1(sender As Object, e As EventArgs) Handles blue1name.Click
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = blue1name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue1price.Text)
@@ -59,7 +50,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub blue2name_Click(sender As Object, e As EventArgs)
+    Private Sub blue2name_Click_1(sender As Object, e As EventArgs) Handles blue2name.Click
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = blue2name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue2price.Text)
@@ -68,7 +59,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub blue3name_Click(sender As Object, e As EventArgs)
+    Private Sub blue3name_Click_1(sender As Object, e As EventArgs) Handles blue3name.Click
         Dim orderfrm As New OrderForm()
         ProductData.CurrentProductName = blue3name.Text
         ProductData.CurrentProductPrice = Decimal.Parse(blue3price.Text)
@@ -77,63 +68,8 @@
         Me.Hide()
     End Sub
 
-    Private Sub Label12_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Panel8_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
     Private Sub pnlMenu_Paint(sender As Object, e As PaintEventArgs) Handles pnlMenu.Paint
-
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-    End Sub
-
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-
-    End Sub
-
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
-
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
-
-    End Sub
-
-    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
-
-    End Sub
-
-    Private Sub Label31_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label23_Click(sender As Object, e As EventArgs) Handles Label23.Click
-
-    End Sub
-
-    Private Sub Label26_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
-    End Sub
-
-    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
-
-    End Sub
-
-    Private Sub Label19_Click(sender As Object, e As EventArgs) Handles Label19.Click
-
-    End Sub
-
-    Private Sub red1name_Click_1(sender As Object, e As EventArgs) Handles red1name.Click
+        btnMenu.BringToFront()
 
     End Sub
 End Class

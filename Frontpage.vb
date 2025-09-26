@@ -6,6 +6,7 @@
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnMenu.FlatStyle = FlatStyle.Flat
         btnMenu.FlatAppearance.BorderSize = 0
+        btnMenu.Location = New Point(0, -1)
         searchbtn.FlatStyle = FlatStyle.Flat
         searchbtn.FlatAppearance.BorderSize = 0
         pnlMenu.Dock = DockStyle.Left
