@@ -43,7 +43,7 @@ Public Class login
                     End Using
 
                     MessageBox.Show("Login successful! Hello " & username)
-                    Dim frontpage As New Frontpage()
+                    Dim frontpage As New maintenanceform()
                     frontpage.Show()
                     Me.Hide()
                 Else
