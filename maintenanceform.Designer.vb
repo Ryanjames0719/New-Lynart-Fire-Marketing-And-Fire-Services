@@ -49,6 +49,7 @@ Partial Class maintenanceform
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label21 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.totalamntbox = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
@@ -59,7 +60,6 @@ Partial Class maintenanceform
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.cmbPriority = New System.Windows.Forms.ComboBox()
-        Me.Label21 = New System.Windows.Forms.Label()
         Me.pnlMenu.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -334,6 +334,18 @@ Partial Class maintenanceform
         Me.Panel1.Size = New System.Drawing.Size(312, 173)
         Me.Panel1.TabIndex = 50
         '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.BackColor = System.Drawing.Color.Firebrick
+        Me.Label21.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.White
+        Me.Label21.Location = New System.Drawing.Point(178, 45)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(131, 22)
+        Me.Label21.TabIndex = 52
+        Me.Label21.Text = "PARTS NAME:"
+        '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
@@ -350,7 +362,6 @@ Partial Class maintenanceform
         Me.totalamntbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalamntbox.Location = New System.Drawing.Point(503, 536)
         Me.totalamntbox.Name = "totalamntbox"
-        Me.totalamntbox.ReadOnly = True
         Me.totalamntbox.Size = New System.Drawing.Size(131, 22)
         Me.totalamntbox.TabIndex = 56
         '
@@ -370,7 +381,6 @@ Partial Class maintenanceform
         Me.productprice.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.productprice.Location = New System.Drawing.Point(503, 442)
         Me.productprice.Name = "productprice"
-        Me.productprice.ReadOnly = True
         Me.productprice.Size = New System.Drawing.Size(131, 22)
         Me.productprice.TabIndex = 54
         '
@@ -432,18 +442,6 @@ Partial Class maintenanceform
         Me.cmbPriority.Name = "cmbPriority"
         Me.cmbPriority.Size = New System.Drawing.Size(117, 30)
         Me.cmbPriority.TabIndex = 59
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.BackColor = System.Drawing.Color.Firebrick
-        Me.Label21.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.White
-        Me.Label21.Location = New System.Drawing.Point(178, 45)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(131, 22)
-        Me.Label21.TabIndex = 52
-        Me.Label21.Text = "PARTS NAME:"
         '
         'maintenanceform
         '
