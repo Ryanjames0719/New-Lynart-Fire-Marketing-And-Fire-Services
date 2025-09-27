@@ -1,46 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\",
+  "WorkspaceRootPath": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:orderform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\product_catalog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:product_catalog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|c:\\users\\ryan\\source\\repos\\lynartpolished\\frontpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|d:\\lynart-marketing-and-fire-protection-services\\frontpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:frontpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\frontpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|D:\\Lynart-Marketing-and-Fire-Protection-Services\\frontpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:frontpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\product_catalog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|D:\\Lynart-Marketing-and-Fire-Protection-Services\\product_catalog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:product_catalog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|D:\\Lynart-Marketing-and-Fire-Protection-Services\\product_catalog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:product_catalog.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\registerform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:registerform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|D:\\Lynart-Marketing-and-Fire-Protection-Services\\product_catalog.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:product_catalog.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\registerform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:registerform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|D:\\Lynart-Marketing-and-Fire-Protection-Services\\frontpage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{35B76278-3951-40E3-8F1B-EBE1FB140C56}|Lynart Marketing And Fire Protection Services.vbproj|solutionrelative:frontpage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,133 +34,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderForm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\OrderForm.vb",
-              "RelativeDocumentMoniker": "OrderForm.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\OrderForm.vb [Design]",
-              "RelativeToolTip": "OrderForm.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-19T01:53:56.488Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Frontpage.resx",
+              "DocumentMoniker": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Frontpage.resx",
+              "RelativeDocumentMoniker": "Frontpage.resx",
+              "ToolTip": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Frontpage.resx",
+              "RelativeToolTip": "Frontpage.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-27T07:13:12.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Product_catalog.Designer.vb",
+              "DocumentMoniker": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Product_catalog.Designer.vb",
+              "RelativeDocumentMoniker": "Product_catalog.Designer.vb",
+              "ToolTip": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Product_catalog.Designer.vb",
+              "RelativeToolTip": "Product_catalog.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-27T07:13:11.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product_catalog.vb",
+              "DocumentMoniker": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Product_catalog.vb",
+              "RelativeDocumentMoniker": "Product_catalog.vb",
+              "ToolTip": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Product_catalog.vb",
+              "RelativeToolTip": "Product_catalog.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-26T14:04:44.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product_catalog.vb [Design]",
+              "DocumentMoniker": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Product_catalog.vb",
+              "RelativeDocumentMoniker": "Product_catalog.vb",
+              "ToolTip": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Product_catalog.vb [Design]",
+              "RelativeToolTip": "Product_catalog.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-26T14:00:56.41Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Frontpage.vb",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Frontpage.vb",
+              "DocumentMoniker": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Frontpage.vb",
               "RelativeDocumentMoniker": "Frontpage.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Frontpage.vb",
+              "ToolTip": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Frontpage.vb",
               "RelativeToolTip": "Frontpage.vb",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAswHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-26T01:58:03.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product_catalog.vb",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Product_catalog.vb",
-              "RelativeDocumentMoniker": "Product_catalog.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Product_catalog.vb",
-              "RelativeToolTip": "Product_catalog.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-25T16:35:38.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Frontpage.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Frontpage.vb",
+              "DocumentMoniker": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Frontpage.vb",
               "RelativeDocumentMoniker": "Frontpage.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Frontpage.vb [Design]",
+              "ToolTip": "D:\\Lynart-Marketing-and-Fire-Protection-Services\\Frontpage.vb [Design]",
               "RelativeToolTip": "Frontpage.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-15T11:12:51.593Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product_catalog.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Product_catalog.vb",
-              "RelativeDocumentMoniker": "Product_catalog.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Product_catalog.vb [Design]",
-              "RelativeToolTip": "Product_catalog.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-25T16:06:59.763Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderForm.vb",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\OrderForm.vb",
-              "RelativeDocumentMoniker": "OrderForm.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\OrderForm.vb",
-              "RelativeToolTip": "OrderForm.vb",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAqwGcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-19T02:01:15.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterForm.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\RegisterForm.vb",
-              "RelativeDocumentMoniker": "RegisterForm.vb",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Lynart-Marketing-and-Fire-Protection-Services\\RegisterForm.vb [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\USER\\source\\repos\\Lynart-Marketing-and-Fire-Protection-Services\\RegisterForm.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-15T11:33:42.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterForm.vb",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\RegisterForm.vb",
-              "RelativeDocumentMoniker": "RegisterForm.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\RegisterForm.vb",
-              "RelativeToolTip": "RegisterForm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-15T11:34:20.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynart-Marketing-and-Fire-Protection-Services\\Form1.vb [Design]",
-              "RelativeToolTip": "..\\Lynart-Marketing-and-Fire-Protection-Services\\Form1.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-15T11:32:48.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\Ryan\\source\\repos\\Lynartpolished\\Form1.vb",
-              "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-16T12:41:53.69Z"
             }
           ]
         }
