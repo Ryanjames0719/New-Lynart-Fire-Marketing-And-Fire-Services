@@ -1,5 +1,14 @@
+# Ignore Visual Studio cache
+.vs/
+*.suo
+
+# Ignore build outputs
 bin/
 obj/
+
+# Ignore user-specific & temp files
 *.user
-*.suo
-.vs
+*.cache
+*.db
+*.log
+*.pdb

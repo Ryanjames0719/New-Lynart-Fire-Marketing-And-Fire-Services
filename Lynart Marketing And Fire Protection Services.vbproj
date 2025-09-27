@@ -199,63 +199,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-home-24 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-inventory-30.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-fire-extinguisher-25 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-maintenance-22.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-services-24.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-warranty-24.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-services-241.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-settings-25.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-settings-24.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-settings-23.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-logout-25.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\images-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\RefillRed.jpg" />
+    <None Include="Resources\Screenshot 2025-09-26 at 19-23-34 Reproduce logo request.png" />
+    <None Include="Resources\ValveMaintenance.jpg" />
+    <None Include="Resources\GaugeMaintenance.jpg" />
+    <None Include="Resources\ValvewithGaugeMaintenance.jpg" />
+    <None Include="Resources\BeltMaintenance.jpg" />
+    <None Include="Resources\HoseMaintenance.jpg" />
+    <None Include="Resources\3d3c3b8b-6043-4eee-84d5-cdd2377a6f03.jpg" />
+    <None Include="Resources\3d3c3b8b-6043-4eee-84d5-cdd2377a6f031.jpg" />
+    <None Include="Resources\3d3c3b8b-6043-4eee-84d5-cdd2377a6f032.jpg" />
+    <None Include="Resources\3d3c3b8b-6043-4eee-84d5-cdd2377a6f03 %281%29.jpg" />
+    <None Include="Resources\d2c71984-51ba-4e3c-a4a1-231c588543e4.jpg" />
+    <None Include="Resources\2d0d421d-48c0-4e33-8fd5-2e45486f5e6a.jpg" />
+    <None Include="Resources\circle.png" />
+    <None Include="Resources\icons8-incoming-call-30.png" />
+    <None Include="Resources\icons8-incoming-call-30 %282%29.png" />
+    <None Include="Resources\icons8-call-squared-48.png" />
+    <None Include="Resources\icons8-call-squared-25.png" />
+    <None Include="Resources\icons8-call-squared-27.png" />
+    <None Include="Resources\424b207c-c043-4dfb-82c6-baee617d87c7.jpg" />
+    <None Include="Resources\424b207c-c043-4dfb-82c6-baee617d87c71.jpg" />
+    <None Include="Resources\191fee7f-928b-4acb-94e6-b27d2be783c9.jpg" />
+    <None Include="Resources\a09145e6-4461-45b9-b0f6-9f366133bc95.jpg" />
+    <None Include="Resources\8f16a8a1-9b1b-49fd-8394-461aab018283.jpg" />
+    <None Include="Resources\52d812c3-1e8e-4fb6-9b22-d9a7bd7c3ad6.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="My\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot 2025-09-26 at 19-23-34 Reproduce logo request.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ValveMaintenance.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\GaugeMaintenance.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ValvewithGaugeMaintenance.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BeltMaintenance.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HoseMaintenance.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
