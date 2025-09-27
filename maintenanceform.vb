@@ -68,6 +68,7 @@ Public Class maintenanceform
             MessageBox.Show("Request placed successfully! Order ID: " & requestID)
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message)
+            'testing merge'
         Finally
             conn.Close()
         End Try
