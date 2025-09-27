@@ -23,7 +23,6 @@ Partial Class OrderForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OrderForm))
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.btnMenu = New System.Windows.Forms.Button()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -32,7 +31,6 @@ Partial Class OrderForm
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PRODUCTNAME = New System.Windows.Forms.Label()
-        Me.PRODUCTIMG = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.pnlMenu = New System.Windows.Forms.Panel()
@@ -46,7 +44,6 @@ Partial Class OrderForm
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Userlabel = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.clientname = New System.Windows.Forms.TextBox()
         Me.clientaddress = New System.Windows.Forms.TextBox()
@@ -58,22 +55,15 @@ Partial Class OrderForm
         Me.Label7 = New System.Windows.Forms.Label()
         Me.totalamntbox = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PRODUCTIMG = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
-        CType(Me.PRODUCTIMG, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlMenu.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PRODUCTIMG, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(685, 18)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(73, 55)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 15
-        Me.PictureBox2.TabStop = False
         '
         'Label10
         '
@@ -159,16 +149,6 @@ Partial Class OrderForm
         Me.PRODUCTNAME.TabIndex = 28
         Me.PRODUCTNAME.Text = "PRODUCT NAME:"
         '
-        'PRODUCTIMG
-        '
-        Me.PRODUCTIMG.Image = CType(resources.GetObject("PRODUCTIMG.Image"), System.Drawing.Image)
-        Me.PRODUCTIMG.Location = New System.Drawing.Point(12, 15)
-        Me.PRODUCTIMG.Name = "PRODUCTIMG"
-        Me.PRODUCTIMG.Size = New System.Drawing.Size(163, 117)
-        Me.PRODUCTIMG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PRODUCTIMG.TabIndex = 0
-        Me.PRODUCTIMG.TabStop = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -207,7 +187,7 @@ Partial Class OrderForm
         Me.pnlMenu.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
         Me.pnlMenu.Name = "pnlMenu"
-        Me.pnlMenu.Size = New System.Drawing.Size(10, 609)
+        Me.pnlMenu.Size = New System.Drawing.Size(10, 679)
         Me.pnlMenu.TabIndex = 29
         '
         'Label19
@@ -309,16 +289,6 @@ Partial Class OrderForm
         Me.Label9.Size = New System.Drawing.Size(194, 22)
         Me.Label9.TabIndex = 12
         Me.Label9.Text = "LYNART MARKETING"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 42)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(105, 103)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 11
-        Me.PictureBox1.TabStop = False
         '
         'Label6
         '
@@ -423,12 +393,42 @@ Partial Class OrderForm
         Me.Label20.TabIndex = 40
         Me.Label20.Text = "TOTAL:"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 42)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(105, 103)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
+        '
+        'PRODUCTIMG
+        '
+        Me.PRODUCTIMG.Image = CType(resources.GetObject("PRODUCTIMG.Image"), System.Drawing.Image)
+        Me.PRODUCTIMG.Location = New System.Drawing.Point(12, 15)
+        Me.PRODUCTIMG.Name = "PRODUCTIMG"
+        Me.PRODUCTIMG.Size = New System.Drawing.Size(163, 117)
+        Me.PRODUCTIMG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PRODUCTIMG.TabIndex = 0
+        Me.PRODUCTIMG.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(685, 18)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(73, 55)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 15
+        Me.PictureBox2.TabStop = False
+        '
         'OrderForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(767, 609)
+        Me.ClientSize = New System.Drawing.Size(767, 679)
         Me.Controls.Add(Me.pnlMenu)
         Me.Controls.Add(Me.totalamntbox)
         Me.Controls.Add(Me.Label20)
@@ -454,13 +454,13 @@ Partial Class OrderForm
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "OrderForm"
         Me.Text = "OrderForm"
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PRODUCTIMG, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlMenu.ResumeLayout(False)
         Me.pnlMenu.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PRODUCTIMG, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

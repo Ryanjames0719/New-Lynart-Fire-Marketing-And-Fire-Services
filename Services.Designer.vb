@@ -441,7 +441,6 @@ Partial Class Services
         '
         'Red
         '
-        Me.Red.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.RefillRed
         Me.Red.Location = New System.Drawing.Point(-15, -10)
         Me.Red.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Red.Name = "Red"
