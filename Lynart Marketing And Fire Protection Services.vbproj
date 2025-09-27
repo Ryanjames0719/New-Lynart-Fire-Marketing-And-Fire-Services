@@ -85,11 +85,22 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Maintenance.Designer.vb">
+      <DependentUpon>Maintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frontpage.Designer.vb">
       <DependentUpon>Frontpage.vb</DependentUpon>
     </Compile>
     <Compile Include="Frontpage.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="OrderForm.Designer.vb">
       <DependentUpon>OrderForm.vb</DependentUpon>
@@ -121,15 +132,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Services.Designer.vb">
+      <DependentUpon>Services.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Services.vb">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frontpage.resx">
       <DependentUpon>Frontpage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance.resx">
+      <DependentUpon>Maintenance.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderForm.resx">
       <DependentUpon>OrderForm.vb</DependentUpon>
@@ -153,9 +168,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Services.resx">
+      <DependentUpon>Services.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -205,6 +223,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefillRed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-26 at 19-23-34 Reproduce logo request.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValveMaintenance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GaugeMaintenance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ValvewithGaugeMaintenance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeltMaintenance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoseMaintenance.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
