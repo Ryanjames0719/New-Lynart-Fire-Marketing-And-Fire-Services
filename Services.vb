@@ -83,15 +83,15 @@
 
     End Sub
 
-    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Blue10lbs.Click
+    Private Sub Label12_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Blue20lbs.Click
+    Private Sub Label11_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Blue10lbsprice.Click
+    Private Sub Label15_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -99,7 +99,7 @@
 
     End Sub
 
-    Private Sub Blue20lbsprice_Click(sender As Object, e As EventArgs) Handles Blue20lbsprice.Click
+    Private Sub Blue20lbsprice_Click(sender As Object, e As EventArgs)
 
     End Sub
 
