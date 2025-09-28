@@ -83,7 +83,7 @@ Partial Class Frontpage
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Firebrick
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Stencil", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(68, 118)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
@@ -95,7 +95,7 @@ Partial Class Frontpage
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Stencil", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.Location = New System.Drawing.Point(266, 118)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
@@ -107,7 +107,7 @@ Partial Class Frontpage
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Stencil", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Black
         Me.Button3.Location = New System.Drawing.Point(345, 118)
         Me.Button3.Margin = New System.Windows.Forms.Padding(2)
@@ -119,7 +119,7 @@ Partial Class Frontpage
         '
         'Button4
         '
-        Me.Button4.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Font = New System.Drawing.Font("Stencil", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Black
         Me.Button4.Location = New System.Drawing.Point(462, 118)
         Me.Button4.Margin = New System.Windows.Forms.Padding(2)
@@ -131,7 +131,7 @@ Partial Class Frontpage
         '
         'Button5
         '
-        Me.Button5.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("Stencil", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.Black
         Me.Button5.Location = New System.Drawing.Point(574, 118)
         Me.Button5.Margin = New System.Windows.Forms.Padding(2)
@@ -143,12 +143,12 @@ Partial Class Frontpage
         '
         'Button6
         '
-        Me.Button6.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Font = New System.Drawing.Font("Stencil", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Black
         Me.Button6.Location = New System.Drawing.Point(687, 118)
         Me.Button6.Margin = New System.Windows.Forms.Padding(2)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(98, 32)
+        Me.Button6.Size = New System.Drawing.Size(112, 32)
         Me.Button6.TabIndex = 29
         Me.Button6.Text = "Warranties"
         Me.Button6.UseVisualStyleBackColor = True
@@ -187,9 +187,8 @@ Partial Class Frontpage
         '
         'Label9
         '
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Stencil", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label9.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources.icons8_call_squared_27
         Me.Label9.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Label9.Location = New System.Drawing.Point(687, 21)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -205,7 +204,6 @@ Partial Class Frontpage
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.WaitCursor
         Me.PictureBox2.ErrorImage = Nothing
-        Me.PictureBox2.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources._8f16a8a1_9b1b_49fd_8394_461aab018283
         Me.PictureBox2.InitialImage = Nothing
         Me.PictureBox2.Location = New System.Drawing.Point(68, 16)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
@@ -413,7 +411,7 @@ Partial Class Frontpage
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.Lynart_Marketing_And_Fire_Protection_Services.My.Resources.Resources._191fee7f_928b_4acb_94e6_b27d2be783c9
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(2, 169)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"
