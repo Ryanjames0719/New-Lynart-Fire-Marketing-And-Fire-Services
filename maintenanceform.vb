@@ -15,6 +15,16 @@ Public Class maintenanceform
         cmbPriority.Items.Add("Urgent")
         cmbPriority.Items.Add("Express")
         cmbPriority.SelectedIndex = 0
+
+        Dim query As String = "SELECT Repairman_ID, Repairman_Name FROM Repairman"
+        Dim adapter As New SqlDataAdapter(query, conn)
+        Dim dt As New DataTable()
+        adapter.Fill(dt)
+
+        repairman.DataSource = dt
+        repairman.DisplayMember = "Repairman_Name"   ' what shows in dropdown
+        repairman.ValueMember = "Repairman_ID"       ' what you actually save
+        repairman.SelectedIndex = -1 '
     End Sub
 
     Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
@@ -34,12 +44,13 @@ Public Class maintenanceform
 
             'parts info'
             Dim partsname As String = "Placeholder"
-            Dim partsprice As Decimal = Convert.ToDecimal(productprice.Text)
+            Dim price As Decimal = Convert.ToDecimal(partsprice.Text)
             Dim quantity As Integer = Convert.ToInt32(quantitynum.Text)
             Dim totalamtn As Decimal = Convert.ToDecimal(totalamntbox.Text)
+            Dim repairmanID As Integer = Convert.ToInt32(repairman.SelectedValue)
 
-            Dim maintSql As String = "INSERT INTO Maintenance_Request(Client_Name, Client_Contact, Client_Email,Client_Address,Emp_ID) 
-                                  VALUES (@custName, @custContact,@custemail, @address,@ID);
+            Dim maintSql As String = "INSERT INTO Maintenance_Request(Client_Name, Client_Contact, Client_Email,Client_Address,Emp_ID,Repairman_ID) 
+                                  VALUES (@custName, @custContact,@custemail, @address,@ID,@repairmanID);
                                   SELECT SCOPE_IDENTITY();"
             Dim maintCmd As New SqlCommand(maintSql, conn, trans)
             maintCmd.Parameters.AddWithValue("@custName", name)
@@ -47,6 +58,7 @@ Public Class maintenanceform
             maintCmd.Parameters.AddWithValue("@custemail", email)
             maintCmd.Parameters.AddWithValue("@address", address)
             maintCmd.Parameters.AddWithValue("@ID", SessionData.CurrentUserID)
+            maintCmd.Parameters.AddWithValue("@repairmanID", repairmanID)
 
             Dim requestID As Integer = Convert.ToInt32(maintCmd.ExecuteScalar())
             'insert to request details'
@@ -72,5 +84,15 @@ Public Class maintenanceform
         Finally
             conn.Close()
         End Try
+    End Sub
+
+    Private Sub repairman_SelectedIndexChanged(sender As Object, e As EventArgs) Handles repairman.SelectedIndexChanged
+
+    End Sub
+    Private Sub partsprice_TextChanged(sender As Object, e As EventArgs) Handles partsprice.TextChanged
+        UpdateTotal(partsprice, quantitynum, totalamntbox)
+    End Sub
+    Private Sub quantitynum_TextChanged(sender As Object, e As EventArgs) Handles quantitynum.TextChanged
+        UpdateTotal(partsprice, quantitynum, totalamntbox)
     End Sub
 End Class
