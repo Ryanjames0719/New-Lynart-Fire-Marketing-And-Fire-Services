@@ -100,7 +100,9 @@
     <Compile Include="maintenanceform.Designer.vb">
       <DependentUpon>maintenanceform.vb</DependentUpon>
     </Compile>
-    <Compile Include="maintenanceform.vb" />
+    <Compile Include="maintenanceform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
