@@ -101,3 +101,25 @@ Module Utils
         Return amount.ToString("C", phCulture) ' ₱1,234.56
     End Function
 End Module
+Module Partscalculation
+    Public Sub UpdateTotal(partsprice As TextBox, quantitynum As TextBox, totalamntbox As TextBox)
+        Dim price As Decimal
+        Dim qty As Integer
+
+        ' Validate price
+        If Not Decimal.TryParse(partsprice.Text, price) Then
+            totalamntbox.Text = "0.00"
+            Exit Sub
+        End If
+
+        ' Validate quantity
+        If Not Integer.TryParse(quantitynum.Text, qty) Then
+            totalamntbox.Text = "0.00"
+            Exit Sub
+        End If
+
+        ' Compute total
+        Dim total As Decimal = price * qty
+        totalamntbox.Text = total.ToString("N2") ' format to 2 decimal places
+    End Sub
+End Module
