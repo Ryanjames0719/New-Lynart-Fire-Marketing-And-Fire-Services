@@ -80,4 +80,24 @@
     Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
 
     End Sub
+
+    Private Sub Label16_Click(sender As Object, e As EventArgs) Handles Label16.Click
+
+    End Sub
+
+    Private Sub Panel9_Paint(sender As Object, e As PaintEventArgs) Handles Panel9.Paint
+
+    End Sub
+
+    Private Sub blue2price_Click(sender As Object, e As EventArgs) Handles blue2price.Click
+
+    End Sub
+
+    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles TanksLbl.Click
+
+    End Sub
+
+    Private Sub EquipLbl_Click(sender As Object, e As EventArgs) Handles EquipLbl.Click
+
+    End Sub
 End Class

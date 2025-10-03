@@ -114,4 +114,12 @@
     Private Sub RfillPanel_Paint(sender As Object, e As PaintEventArgs) Handles RfillPanel.Paint
 
     End Sub
+
+    Private Sub Label8_Click_1(sender As Object, e As EventArgs) Handles Label8.Click
+
+    End Sub
+
+    Private Sub Label3_Click_1(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
 End Class
