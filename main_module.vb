@@ -77,6 +77,7 @@ Module ProductData
     Public CurrentProductName As String
     Public CurrentProductPrice As Decimal
     Public CurrentProductImage As Image
+    Public Currentpounds As Integer
 End Module
 Module SessionData
     Public CurrentUsername As String
@@ -123,3 +124,33 @@ Module Partscalculation
         totalamntbox.Text = total.ToString("N2") ' format to 2 decimal places
     End Sub
 End Module
+
+Module ModuleRefillCalculator
+
+    ' 1 lb = 0.453592 kg (conversion constant)
+    Private Const LB_TO_KG As Decimal = 0.453592D
+
+    ' Function to convert pounds to kilograms
+    Public Function PoundsToKilograms(pounds As Decimal) As Decimal
+        Return Math.Round(pounds * LB_TO_KG, 2)
+    End Function
+
+    ' Procedure to auto-update kilograms textbox
+    ' based on quantity and pounds per tank (from catalog)
+    Public Sub UpdateKilograms(txtQuantity As TextBox, txtKilograms As TextBox, poundsPerTank As Decimal)
+        Try
+            Dim qty As Integer = 0
+            Integer.TryParse(txtQuantity.Text, qty)
+
+            ' total pounds = pounds per tank * quantity
+            Dim totalPounds As Decimal = poundsPerTank * qty
+            Dim totalKg As Decimal = PoundsToKilograms(totalPounds)
+
+            txtKilograms.Text = totalKg.ToString()
+        Catch ex As Exception
+            txtKilograms.Text = "0"
+        End Try
+    End Sub
+
+End Module
+

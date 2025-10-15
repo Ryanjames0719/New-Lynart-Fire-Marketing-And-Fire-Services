@@ -4,6 +4,7 @@ Imports Microsoft.VisualBasic.ApplicationServices
 Public Class login
 
     Dim conn As New SqlConnection("Server=localhost\SQLEXPRESS;Database=LynartDB;Trusted_Connection=True;")
+
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         RoundPanelCorners(Panel1, 50)
         RoundButtonCorners(loginbtn, 37)
@@ -11,7 +12,7 @@ Public Class login
         loginbtn.FlatAppearance.BorderSize = 0
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+    Private Sub Label3_Click(sender As Object, e As EventArgs)
         Dim registerform As New RegisterForm()
         registerform.Show()
         Me.Hide()
@@ -43,7 +44,7 @@ Public Class login
                     End Using
 
                     MessageBox.Show("Login successful! Hello " & username)
-                    Dim frontpage As New maintenanceform()
+                    Dim frontpage As New Frontpage()
                     frontpage.Show()
                     Me.Hide()
                 Else

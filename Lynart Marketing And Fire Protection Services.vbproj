@@ -149,6 +149,12 @@
     <Compile Include="Services.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ServicesForm.Designer.vb">
+      <DependentUpon>ServicesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ServicesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -183,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Services.resx">
       <DependentUpon>Services.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicesForm.resx">
+      <DependentUpon>ServicesForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

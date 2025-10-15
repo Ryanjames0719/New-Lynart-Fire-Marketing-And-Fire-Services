@@ -5,10 +5,10 @@ Public Class maintenanceform
     Dim conn As New SqlConnection("Server=localhost\SQLEXPRESS;Database=LynartDB;Trusted_Connection=True;")
 
     Private Sub maintenanceform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Userlabel.Text = SessionData.CurrentUsername
         Dim UserID As Integer = SessionData.CurrentUserID
-        pnlMenu.Width = 0
-        btnMenu.Location = New Point(0, -1)
+        partname.Text = ProductData.CurrentProductName
+        partsprice.Text = ProductData.CurrentProductPrice
+        partpic.Image = ProductData.CurrentProductImage
 
         cmbPriority.Items.Clear()
         cmbPriority.Items.Add("Normal")
@@ -26,12 +26,6 @@ Public Class maintenanceform
         repairman.ValueMember = "Repairman_ID"       ' what you actually save
         repairman.SelectedIndex = -1 '
     End Sub
-
-    Private Sub btnMenu_Click(sender As Object, e As EventArgs) Handles btnMenu.Click
-        ToggleMenu(pnlMenu, 330, isMenuOpen)
-        btnMenu.BringToFront()
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim trans As SqlTransaction = Nothing
         Try
@@ -86,7 +80,7 @@ Public Class maintenanceform
         End Try
     End Sub
 
-    Private Sub repairman_SelectedIndexChanged(sender As Object, e As EventArgs) Handles repairman.SelectedIndexChanged
+    Private Sub repairman_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
     Private Sub partsprice_TextChanged(sender As Object, e As EventArgs) Handles partsprice.TextChanged
@@ -104,7 +98,18 @@ Public Class maintenanceform
 
     End Sub
 
-    Private Sub Label22_Click(sender As Object, e As EventArgs) Handles Label22.Click
+    Private Sub Label22_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
+        Dim ftnpage As New Frontpage()
+        ftnpage.Show()
+        Me.Hide()
 
     End Sub
 End Class
