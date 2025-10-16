@@ -11,7 +11,7 @@
     Private Sub Label11_Click(sender As Object, e As EventArgs)
         Dim prod_catalog As New Product_catalog()
         prod_catalog.Show()
-        Me.Hide()
+        Me.Hide() 
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs)
